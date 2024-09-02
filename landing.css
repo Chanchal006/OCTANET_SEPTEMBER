@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #240bb3;
+    background-color: #f4f4f4;
+}
+header {
+    background: #240bb3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+.hero {
+    background: url('girlmodel.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background:#240bb3;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #22048d;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.about, .portfolio, .contact {
+    padding: 40px 0;
+    text-align: center;
+
+}
+.about h2, .portfolio h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.portfolio img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact button:hover {
+    background: #555;
+}
+footer {
+    background: #240bb3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
